@@ -4,10 +4,10 @@
 
 # social media dashboard recreate
 
-# Peer Review by 
+# Peer Review by Fernando Gutierrez
 
 # Peer comment
-Here
+All AND ALL LOOKS PRETTY good layout just a little things to be fixed looks like you have to do the back square in darkmode also I see that it's not qite pixel perfect but other than that good job man. 
 
 
 
