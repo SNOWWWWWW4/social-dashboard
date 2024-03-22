@@ -36,3 +36,190 @@
     transform: rotate(360deg);
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: "Inter", sans-serif, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  size: 12px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+.grayish {
+  background: hsl(228, 34%, 66%);
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
+.arrows{
+  margin-bottom: 0.65rem;
+  margin-left: 0.25rem;
+  width: 8px;
+  height: 4px;
+}
+
+.numberTwo {
+  font-weight: bold;
+  font-size:xx-large;
+}
+
+
+/* top bg section */
+
+.darkBlueTop {
+  background: hsl(232, 19%, 15%);
+  width: 100%;
+  height: 16rem;
+  position: absolute;
+  z-index: -1;
+}
+
+.lightBlueTop {
+  background:  hsl(225, 100%, 98%);
+  width: 100%;
+  height: 16rem;
+  position: absolute;
+  z-index: -1;
+}
+
+
+
+/* cardBGs */
+
+.cardBgDark {
+  background: hsl(228, 28%, 20%);
+  min-height: 7rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cardBgLight {
+  background: hsl(227, 47%, 96%);
+  min-height: 7rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cardBgDark:hover {
+  background: hsl(230, 20%, 36%);
+}
+
+.cardBgLight:hover {
+  background: hsl(228, 48%, 94%);
+}
+
+.cardSmallDark {
+  background: hsl(228, 28%, 20%);
+  min-height: 7rem;
+  padding-top: 1.5rem;
+  padding-left: 1.75rem;
+  padding-bottom: 0.75rem;
+  padding-right: 1.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cardSmallLight {
+  background: hsl(227, 47%, 96%);
+  min-height: 7rem;
+  padding-top: 1.5rem;
+  padding-left: 1.75rem;
+  padding-bottom: 0.75rem;
+  padding-right: 1.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cardSmallDark:hover {
+  background: hsl(230, 20%, 36%);
+}
+
+.cardSmallLight:hover {
+  background: hsl(228, 48%, 94%);
+}
+
+/* on and off toggle button */
+
+.toggleBtn {
+  background:  linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  background-color: hsl(230, 22%, 74%);
+  border: 1px solid hsl(228, 16%, 67%);
+  border-radius: 40px;
+  width:60px;
+  height:28px;
+  transition: background-color 0.1s ease, border-color 0.4s ease;
+  transition-duration: 1000ms;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.748);
+  position: relative;
+}
+
+.toggleBtn .circle {
+  height:18px;
+  width: 18px;
+  background-color: hsl(230, 17%, 14%);
+  border-radius: 40px;
+  transform: translateX(0);
+  position: absolute;
+  left: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.toggleBtn.toggled {
+  background: hsl(230, 22%, 74%);
+}
+.toggleBtn:hover {
+  background:linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+.toggleBtn.toggled .circle {
+  left: calc(60px - 23px);
+  background-color: white;
+}
+
+/* lines */
+
+.facebookLine {
+  background:hsl(208, 92%, 53%);
+  border-radius: 8px 8px 0 0;
+  z-index: 2;
+}
+
+.twitterLine {
+  background: hsl(203, 89%, 53%);
+  border-radius: 8px 8px 0 0;
+}
+
+.instagramLine {
+  background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  border-radius: 8px 8px 0 0;
+}
+
+.youtubeLine {
+  background: hsl(348, 97%, 39%);
+  border-radius: 8px 8px 0 0;
+}
+
+/* primary colors */
+.lime {
+  color: hsl(163, 72%, 41%);
+  border-radius: 8px 8px 0 0;
+}
+
+.bright-red {
+  color: hsl(356, 69%, 56%);
+}
+
+/* card  style*/
